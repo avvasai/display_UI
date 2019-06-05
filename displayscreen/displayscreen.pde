@@ -6,7 +6,7 @@ int milli_sec = 100;
 int gear_val = 2;
 int speed_val = 100;
 //###############Processing###############
-int[] time =  {0,0,0};
+int[] time =  {00,00,00};
 //The first elemnt is time in min, the second sec and the last being millisec
 // intitalized an array for multiple return values 
 //##################################
