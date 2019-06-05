@@ -1,5 +1,6 @@
 PFont gear;
 int gear_val = 2;
+int speed_val = 100;
 
 void setup () {
   size(320, 240);
@@ -13,4 +14,5 @@ void draw() {
   grid();
   rpm();
   gear();
+  speed();
 }
