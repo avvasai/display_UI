@@ -1,3 +1,4 @@
+//##############GUI#################
 void speed(){
   textFont(gear,40);
   textAlign(CENTER);

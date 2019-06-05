@@ -1,3 +1,4 @@
+//##############GUI#################
 void gear(){
   textFont(gear,60);
   textAlign(CENTER);
