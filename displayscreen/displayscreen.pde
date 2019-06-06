@@ -5,8 +5,10 @@ PFont gear;
 int milli_sec = 100;
 int gear_val = 2;
 int speed_val = 100;
+int rad_val = 35;
+int engine_val = 35;
 //###############Processing###############
-int[] time =  {00,00,00};
+int[] time =  {0,0,0};
 //The first elemnt is time in min, the second sec and the last being millisec
 // intitalized an array for multiple return values 
 //##################################
@@ -33,5 +35,7 @@ void draw() {
   rpm();
   gear();
   speed();
+  rad();
+  engine();
   //##################################
 }
